@@ -2,7 +2,7 @@ name: build
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main","memiks-riscv64"]
   release:
     types: ["published"]
   pull_request:
